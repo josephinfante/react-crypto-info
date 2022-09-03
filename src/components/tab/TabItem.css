@@ -1,0 +1,40 @@
+.tab_content-item {
+    background: #181818;
+    box-shadow: -3px -3px 5px rgba(87, 74, 226, 0.2), 3px 3px 5px #000000;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item_left, .item_right {
+    width: 50%;
+}
+
+.item_left {
+    text-align: left;
+}
+
+.item_right {
+    text-align: right;
+}
+
+.item_left .date {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.item_left .time {
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.item_right .price {
+    font-weight: 400;
+    font-size: 20px;
+}
