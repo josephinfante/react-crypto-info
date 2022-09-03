@@ -1,0 +1,135 @@
+#detail {
+  height: 100%;
+  min-height: 100%;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_title {
+  margin-left: 10px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1366px;
+  height: 100%;
+  min-height: 100%;
+}
+
+#left,
+#right {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+
+#right {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #181818;
+  box-shadow: -3px -3px 5px rgba(87, 74, 226, 0.2), 3px 3px 5px #000000;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto 20px;
+  width: 500px;
+  height: 50px;
+}
+
+.tabs li {
+  list-style-type: none;
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.active_tab {
+  background: #574ae2;
+  box-shadow: -3px -3px 5px rgba(87, 74, 226, 0.2), 3px 3px 5px #000000;
+  border-radius: 10px;
+}
+
+#left .price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  margin: 20px auto 10px;
+}
+
+.price_value,
+.price_percentage {
+  width: 45%;
+  text-align: center;
+}
+
+.value,
+.percentage {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.spacer {
+  width: 5px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.red {
+  color: #b3001b;
+}
+
+.green {
+  color: #08ac4a;
+}
+
+.back_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: none;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+}
+
+.back_button:hover {
+  opacity: 0.7
+}
+
+.button-image {
+  padding: 10px;
+  border-radius: 50px;
+  background: #574ae2;
+  margin-right: 10px;
+}
+
+.button-text {
+  font-size: 20px;
+}
